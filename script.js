@@ -1,5 +1,5 @@
-function changeNumbers(numbers) {
-	return '1ok';
+function reverseNumber(num)
+{
+	num = num + "";
+	return num.split("").reverse().join("");
 }
-var numbers = 123;
-console.log('ok');
